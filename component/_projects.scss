@@ -1,0 +1,32 @@
+.projects__main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 7.5rem;
+  column-gap: 7.4rem;
+}
+.projects_img {
+  box-shadow: 0 0 0.5rem rgb(0, 0, 0, 0.2);
+  max-width: 100%;
+}
+.projects__data {
+  align-self: center;
+}
+.projects__description {
+  line-height: 1.5;
+}
+.projects__links:link,
+.projects__links:visited {
+  color: var(--color-dark-blue);
+  font-family: var(--font-family-poppins);
+  font-weight: var(--font-weight-medium);
+  margin-top: 2.4rem;
+}
+.projects__links::after {
+  content: "";
+  display: inline-block;
+  width: 1.4rem;
+  height: 1.4rem;
+  background-image: url(./img/external-icon.png);
+  background-size: contain;
+  margin-left: 0.6rem;
+}

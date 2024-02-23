@@ -1,0 +1,15 @@
+.skills__list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  row-gap: 5rem;
+  font-size: var(--font-size-38);
+  font-weight: var(--font-weight-semi-bold);
+}
+.skills__item:hover {
+  user-select: none;
+}
+.list__item-experience {
+  font-size: var(--font-size-20);
+  font-weight: var(--font-weight-regular);
+  margin-top: 1rem;
+}
